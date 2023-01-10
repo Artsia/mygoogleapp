@@ -1,0 +1,91 @@
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-family: Roboto,Arial,sans-serif;
+    background-color: #202124;
+    text-align: center;
+    height: 100px;
+    width: auto;
+}
+
+
+.two-items{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.two-items a{
+    text-decoration: none;
+    color:white;
+}
+
+.two-items a:hover{
+    text-decoration:underline;
+}
+    
+
+.two-items p{
+    display: flex;
+    justify-content: space-between;
+}
+
+    /*Second div in component*/
+
+.four-items{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
+
+.four-items a{
+    text-decoration: none;
+    color:white
+}
+
+.four-items a:hover{
+    text-decoration:underline;
+}
+
+.four-items p{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.round-padding img{
+    object-fit: contain;
+    width: 24px;
+    height: 24px;
+    
+}
+
+
+/*.round-padding:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: none;
+    padding:5px 5px;
+    background-color: #3c3e44;
+
+}*/
+
+
+#signInBluePadding{
+    /*background-color: #8AB4F8;
+    color: black;*/
+    /*border: none;/*optional*/
+    /*height: 15px;
+    padding:11px 15px;
+    margin: 0px 8px;*/
+    text-align: center;
+    background-color: #2254a5;
+    fill: #2254a5;
+    width:60px;
+    height: 30px;
+    padding-top: 13px;;
+    margin-bottom:5px; 
+    margin-right:15px; 
+}
